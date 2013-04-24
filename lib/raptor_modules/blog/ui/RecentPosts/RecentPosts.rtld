@@ -1,0 +1,7 @@
+<raptor-taglib>
+
+    <tag name="recent-posts" renderer="blog/ui/RecentPosts/RecentPostsRenderer">
+        <attribute name="count" type="integer"/>
+    </tag>
+    
+</raptor-taglib>

@@ -1,0 +1,13 @@
+<c:template
+    xmlns:c="core"
+    xmlns:w="widgets"
+    name="blog/ui/Section"
+    params="contentArray,renderer">
+    
+    <c:for each="content in contentArray">
+        <c:if test="content.visible !== false">
+            <c:invoke function="context.invokeHandler(renderer(content), content.input)"/>
+        </c:if>
+    </c:for>
+
+</c:template>

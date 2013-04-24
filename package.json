@@ -1,0 +1,37 @@
+{
+  "name": "raptor-blog",
+  "version": "0.1.0",
+  "description": "A static blog website generator built on top of JavaScript, Node.js and RaptorJS",
+  "main": "lib/raptor-blog.js",
+  "dependencies": {
+    "optimist": "~0.4.0",
+    "raptor": "~2.3.16",
+    "raptor-static-site-generator": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raptorjs/raptor-blog"
+  },
+  "keywords": [
+    "blogging",
+    "static",
+    "site",
+    "generator",
+    "website"
+  ],
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "raptor": {
+    "search-path": [
+      "lib/raptor_modules"
+    ]
+  },
+  "bin": {
+    "raptor-blog": "bin/raptor-blog"
+  }
+}

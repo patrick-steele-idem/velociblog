@@ -1,0 +1,11 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "blog/ui/RecentPosts" },
+            "RecentPostsRenderer.js",
+            "RecentPosts.rhtml"
+        ]
+    }
+}
