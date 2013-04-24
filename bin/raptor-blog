@@ -1,3 +1,14 @@
 #!/usr/bin/env node
+
 if( !process.env.NODE_ENV ) process.env.NODE_ENV = 'development';
-require('../lib/raptor-blog-cli').run();
+
+require('raptor');
+var path = require('path');
+var rapido = require('rapido').create();
+
+
+rapido.title = 'Raptor Blog Command Line Tools';
+rapido.addNodeModulesDir(path.join(__dirname, '../node_modules'));
+rapido.enableStack('raptor-blog');
+rapido.exclusiveStackCommands('raptor-blog');
+rapido.run(process.argv);
