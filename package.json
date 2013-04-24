@@ -1,12 +1,14 @@
 {
   "name": "raptor-blog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A static blog website generator built on top of JavaScript, Node.js and RaptorJS",
   "main": "lib/raptor-blog.js",
   "dependencies": {
     "optimist": "~0.4.0",
     "raptor": "~2.3.16",
-    "raptor-static-site-generator": "~0.2.0"
+    "raptor-static-site-generator": "~0.2.0",
+    "rapido-raptor-blog": "~0.1.0",
+    "rapido": "~0.2.0"
   },
   "devDependencies": {},
   "scripts": {
