@@ -1,0 +1,38 @@
+{
+  "name": "velociblog",
+  "version": "0.1.0",
+  "description": "A static blog generator built on top of JavaScript, Node.js and RaptorJS",
+  "main": "lib/velociblog.js",
+  "dependencies": {
+    "raptor": "~2.3.16",
+    "raptor-static-site-generator": "~0.2.0",
+    "rapido-velociblog": "~0.1.0",
+    "rapido": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/velociblog"
+  },
+  "keywords": [
+    "blogging",
+    "static",
+    "site",
+    "generator",
+    "website"
+  ],
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "raptor": {
+    "search-path": [
+      "lib/raptor_modules"
+    ]
+  },
+  "bin": {
+    "blog": "bin/blog"
+  }
+}

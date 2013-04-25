@@ -1,0 +1,8 @@
+<raptor-taglib>
+
+    <tag name="section" renderer="blog/ui/Section/SectionRenderer">
+        <attribute name="layout" type="string"/>
+        <attribute name="name" type="string"/>
+    </tag>
+    
+</raptor-taglib>
