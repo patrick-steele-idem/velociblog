@@ -7,8 +7,8 @@ var path = require('path');
 var rapido = require('rapido').create();
 
 
-rapido.title = 'Raptor Blog Command Line Tools';
+rapido.title = 'Velociblog Command Line Tools';
 rapido.addNodeModulesDir(path.join(__dirname, '../node_modules'));
-rapido.enableStack('raptor-blog');
-rapido.exclusiveStackCommands('raptor-blog');
+rapido.enableStack('velociblog');
+rapido.exclusiveStackCommands('velociblog');
 rapido.run(process.argv);
