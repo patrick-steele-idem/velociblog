@@ -1,0 +1,24 @@
+{
+    "title": "Patrick Steele-Idem",
+    "subtitle": "If it's not perfect, make it better.",
+    "description": "",
+    "author": "Patrick Steele-Idem",
+    "layouts": {
+        "post": {
+            "sections": {
+                "aside": [
+                    {
+                        "component": "ui/RecentPosts",
+                        "input": {
+                            "count": 5
+                        },
+                        "visible": true  
+                    }
+                ]
+            }
+        }
+    },
+    "watch": [
+        "../lib"
+    ]
+}

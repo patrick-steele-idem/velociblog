@@ -1,8 +1,9 @@
 {
-    "rtld.file": "lib/raptor_modules/blog.rtld",
+    "rtld.file": "lib/blog.rtld",
     "use": [
         "raptorjs"
     ],
-    "modules.dir": "lib/raptor_modules",
-    "components.dir": "lib/raptor_modules"
+    "modules.dir": "lib",
+    "components.dir": "lib",
+    "components.prefix": "ui"
 }

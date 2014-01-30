@@ -1,0 +1,6 @@
+<raptor-taglib>
+    <uri>blog</uri>
+    <import-taglib path="ui/RecentPosts/RecentPosts.rtld"/>
+    <import-taglib path="ui/Section/Section.rtld"/>
+    <import-taglib path="ui/Header/Header.rtld"/>
+</raptor-taglib>

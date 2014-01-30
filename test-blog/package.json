@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "Blog: Test Blog by Patrick Steele-Idem",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "raptor": ">=2.3.17"
+  }
+}

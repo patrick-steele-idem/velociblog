@@ -1,0 +1,17 @@
+<c:template
+    xmlns:c="core"
+    xmlns:w="widgets"
+    name="ui/Header"
+    params="blog,linkManager">
+    
+    <header role="banner">
+        <hgroup>
+            <h1>
+                <a href="${linkManager.url('/')}">$blog.title</a>
+            </h1>
+          
+            <h2>$blog.subtitle</h2>
+        </hgroup>
+    </header>
+
+</c:template>

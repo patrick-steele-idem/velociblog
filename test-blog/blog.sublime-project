@@ -1,0 +1,36 @@
+{
+    "build_systems":
+    [
+        {
+            "cmd":
+            [
+                "blog",
+                "--dev"
+            ],
+            "name": "build (dev)",
+            "working_dir": "${project_path}"
+        },
+        {
+            "cmd":
+            [
+                "blog"
+            ],
+            "name": "build (production)",
+            "working_dir": "${project_path}"
+        }
+    ],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "settings":
+    {
+        "build_switcher_systems":
+        [
+            "build (dev)",
+            "build (production)"
+        ]
+    }
+}

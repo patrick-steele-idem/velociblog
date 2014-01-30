@@ -7,7 +7,8 @@
     "raptor": "~2.3.16",
     "raptor-static-site-generator": "~0.2.0",
     "rapido-velociblog": "~0.1.0",
-    "rapido": "~0.2.0"
+    "rapido": "~0.2.0",
+    "directory-walker": "~1.2.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -29,7 +30,7 @@
   "readmeFilename": "README.md",
   "raptor": {
     "search-path": [
-      "lib/raptor_modules"
+      "lib"
     ]
   },
   "bin": {

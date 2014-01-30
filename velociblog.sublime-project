@@ -1,14 +1,36 @@
 {
     "build_systems":
     [
+        {
+            "cmd":
+            [
+                "../bin/blog",
+                "build",
+                "--dev",
+                "--watch"
+            ],
+            "name": "Build Test Blog",
+            "working_dir": "${project_path}/test-blog"
+        }
     ],
 	"folders":
 	[
 		{
 			"path": "."
-		}
+		},
+        {
+            "path": "../rapido-velociblog",
+            "follow_symlinks" : true,
+            "folder_exclude_patterns": [
+                "node_modules/velociblog"
+            ]
+        }
 	],
     "settings":
     {
+        "build_switcher_systems":
+        [
+            "Build Test Blog"
+        ]
     }
 }
